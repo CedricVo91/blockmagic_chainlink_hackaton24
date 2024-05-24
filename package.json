@@ -1,4 +1,17 @@
 {
+  "name": "blockmagic_hackaton24",
+  "version": "1.0.0",
+  "description": "Single player implementation of simple DEX back-end leveraging chainlink products using python and solidity",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "@openzeppelin/contracts": "^5.0.2"
   }
