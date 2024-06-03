@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/blockmagic_hackaton/ccip/PairUtils.sol": "PairUtils"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/blockmagic_hackaton/ccip/PairUtils.sol": {
+			"keccak256": "0x4a095804f457960247ab5687d0c8985702e0d56850356626a4435b18fdf8ffb8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a4cce2ad34f1621847b8b46d5fbf9588f45add1d49a24f3596b0893f61ad66b5",
+				"dweb:/ipfs/Qma15dnvU3XVdcnXUuRs1TyLzcd3C4MCm3TYphVySaKecf"
+			]
+		}
+	},
+	"version": 1
+}
