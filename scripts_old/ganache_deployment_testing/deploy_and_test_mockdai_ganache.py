@@ -16,7 +16,7 @@ else:
 
 #set default account
 web3.eth.default_account = web3.eth.accounts[0]
-private_key = "187d5075981ffbcf0df88ec2985bad86f7a53dce190bea53ad18b1837c141b01"
+private_key = ""
 
 with open("MockDaiTokenv4.json", "r") as file:
     mockDAI_json = json.load(file)
