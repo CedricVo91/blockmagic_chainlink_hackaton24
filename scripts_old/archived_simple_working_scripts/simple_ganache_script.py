@@ -8,7 +8,7 @@ print("connected" if web3.is_connected() is True else print("Not worked"))
 account_1 = "0xe98da224db372e29edEb64C39F4f74Af4eAFDBd9"
 account_2 = "0x66e97374ee11673D27a6136c6d22C8B9fB764204"
 
-private_key = "104cf732d5e23190f7588e4bc1d6c9ba25376fb497d0709d34e7dc4c79907976"
+private_key = ""
 
 #get the nonce
 nonce = web3.eth.get_transaction_count(account_1)
