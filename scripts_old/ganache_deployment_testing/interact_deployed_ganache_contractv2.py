@@ -15,7 +15,7 @@ else:
 
 #set default account
 web3.eth.default_account = web3.eth.accounts[0]  # Sender account
-private_key = "187d5075981ffbcf0df88ec2985bad86f7a53dce190bea53ad18b1837c141b01"  # Sender's private key
+private_key = ""  # Sender's private key
 
 receiver = web3.to_checksum_address("0x39d430daad22eb14304a57bcb15a42415afb0a8f")  # Receiver account
 spender = web3.to_checksum_address("0xA11a02320955756298146ACFd464882453570953")  # Third Ganache account address acting as the spender
