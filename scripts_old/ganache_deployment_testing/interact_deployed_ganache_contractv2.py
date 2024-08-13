@@ -19,7 +19,7 @@ private_key = ""  # Sender's private key
 
 receiver = web3.to_checksum_address("0x39d430daad22eb14304a57bcb15a42415afb0a8f")  # Receiver account
 spender = web3.to_checksum_address("0xA11a02320955756298146ACFd464882453570953")  # Third Ganache account address acting as the spender
-spender_private_key = "65c92198487de1785d9c9b039c3456d66b48b1a22b01ca1c2afe7de7a0d791c4"  # Spender's private key
+spender_private_key = ""  # Spender's private key
 
 with open("MockDaiTokenv4.json", "r") as file:
     mockDAI_json = json.load(file)
