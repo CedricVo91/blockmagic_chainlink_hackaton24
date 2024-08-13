@@ -13,7 +13,7 @@ assert web3.is_connected() #returns True if connected
 
 # Set default account (replace with your account from Ganache)
 web3.eth.defaultAccount = web3.eth.accounts[0]
-private_key = "104cf732d5e23190f7588e4bc1d6c9ba25376fb497d0709d34e7dc4c79907976"
+private_key = ""
 
 #test my simple dex on real testnet using real tokens
 
